@@ -3,7 +3,7 @@
     "module": "commonjs",
     "target": "es5",
     "experimentalDecorators": true,
-    "lib": [ "es2015" ],
+    "lib": [ "es2015", "DOM" ],
     "sourceMap": true,
     "outDir": "./dist"
   },
