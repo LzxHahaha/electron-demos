@@ -1,6 +1,22 @@
-## Electron DEMOs
+# Electron DEMOs
 
 实践实践验真理的唯一标准。
+
+## 运行
+
+先分别在`./`和`./view`下运行`$ yarn`安装依赖
+
+然后
+
+```
+$ cd ./view
+$ npm run build
+$ cd ..
+$ npm run build
+$ npm start
+```
+
+## 说明
 
 ### 窗口加载
 
