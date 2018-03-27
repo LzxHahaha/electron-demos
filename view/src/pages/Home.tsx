@@ -13,10 +13,6 @@ class Home extends React.Component {
     @observable counter: number = 0;
     @observable connectClient?: LongEventClient = null;
 
-    constructor(props) {
-        super(props);
-    }
-
     async onSendClick() {
         const result = await sendEvent({ message: 'text' });
         alert(result);
