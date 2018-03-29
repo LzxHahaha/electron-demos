@@ -5,7 +5,7 @@
     "experimentalDecorators": true,
     "lib": [ "es2015", "DOM" ],
     "sourceMap": true,
-    "outDir": "./dist"
+    "outDir": "./build"
   },
   "include": [
     "app/**/*"

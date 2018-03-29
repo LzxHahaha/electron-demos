@@ -52,3 +52,13 @@ $ npm start
 
 但是想想没啥必要，毕竟有`BrowserWindow.getAllWindows()`了，
 倒是可以把`ipcRenderer.on`封装成一些注册函数，返回一个remove函数在组件销毁的时候调一下
+
+### 打包
+
+推荐使用[electron-builder](https://github.com/electron-userland/electron-builder)。
+
+需要在[package.json](/package.json)中添加`build`配置，
+建议使用`file`字段指定需要打包的文件夹，否则默认为`**/*`，其他配置看文档。
+另外，electron必须放在`devDependencies`里。
+
+打包完成后会在`dist`目录下生成安装包。
