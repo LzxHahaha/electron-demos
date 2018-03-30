@@ -4,7 +4,7 @@
   "description": "Electron DEMOs",
   "main": "build/index.js",
   "scripts": {
-    "start": "electron ./dist/index.js",
+    "start": "electron ./build/index.js",
     "build": "tsc",
     "pack": "electron-builder"
   },
